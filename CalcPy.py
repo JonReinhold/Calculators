@@ -1,6 +1,20 @@
-#Python CLI calculator that take arguments directly from the prompt
+Python CLI calculator that take arguments directly from the prompt
+import sys
+x = int(sys.argv[1])
+y = int(sys.argv[2])
+z = sys.argv[3]
 
+def Calculator(a,b,c):
+	if z == "*":
+		return (x*y)
+	elif z =="+":
+		return (x+y)
+	elif z =="/":
+		return (x/y)
+	elif z == "-":
+		return (x-y)
+	else:
+		return "Invalid input."
 
-def Calculator(x,y,z):
-	
+print(Calculator(x,z,y))
 	
