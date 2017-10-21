@@ -1,4 +1,4 @@
-Python CLI calculator that take arguments directly from the prompt
+#Python CLI calculator that take arguments directly from the prompt
 import sys
 x = int(sys.argv[1])
 y = int(sys.argv[2])
