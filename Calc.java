@@ -1,7 +1,6 @@
 import java.util.Scanner;
 import static java.lang.System.out;
 
-
 public class CalcJv {
     public static void main(String[] args) {
     double arg1;
