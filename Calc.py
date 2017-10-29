@@ -1,4 +1,3 @@
-#Python CLI calculator 
 import sys
 
 x = int(sys.argv[1])
