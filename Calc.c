@@ -8,7 +8,7 @@ int main() {
     printf("Which operation do you want to do: ");
     scanf("%c", &operator);
 
-    printf("Numbers: ");
+    printf("Enter two numbers: ");
     scanf("%lf %lf",&firstNumber, &secondNumber);
 
    
