@@ -11,7 +11,6 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%lf %lf",&firstNumber, &secondNumber);
 
-   
     switch(operator)
     {
         case '+':
