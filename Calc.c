@@ -1,4 +1,4 @@
-# include <stdio.h>
+#include<stdio.h>
 
 int main() {
 
@@ -6,7 +6,7 @@ int main() {
 	double secondNumber;
     char operator;
 
-    printf("Which operation do you want to do: ");
+    printf("Which operation do you want to do? ");
     scanf("%c", &operator);
 
     printf("Enter two numbers: ");
